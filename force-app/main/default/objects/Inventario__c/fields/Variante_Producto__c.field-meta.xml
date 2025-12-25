@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Variante_Producto__c</fullName>
+    <description>relacion entre variante del  producto y el inventario</description>
+    <label>Variante_Producto</label>
+    <referenceTo>Variante_Producto__c</referenceTo>
+    <relationshipLabel>Inventarios</relationshipLabel>
+    <relationshipName>Inventarios</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
