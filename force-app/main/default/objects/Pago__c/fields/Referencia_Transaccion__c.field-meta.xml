@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SKU_ID__c</fullName>
+    <fullName>Referencia_Transaccion__c</fullName>
     <externalId>false</externalId>
-    <formula>UPPER(
-        Product__r.Id  &amp; &quot;-&quot; &amp; 
-    LEFT(TEXT(Color__c), 3) &amp; &quot;-&quot; &amp; 
-    LEFT(TEXT(Talla__c), 2))</formula>
-    <label>SKU_ID</label>
+    <label>Referencia_Transaccion</label>
+    <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

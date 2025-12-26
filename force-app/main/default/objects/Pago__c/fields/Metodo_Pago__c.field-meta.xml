@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Talla__c</fullName>
-    <label>Talla</label>
+    <fullName>Metodo_Pago__c</fullName>
+    <description>Forma de Pago</description>
+    <label>Metodo_Pago</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -10,29 +11,19 @@
         <valueSetDefinition>
             <sorted>true</sorted>
             <value>
-                <fullName>L</fullName>
+                <fullName>Efectivo</fullName>
                 <default>true</default>
-                <label>L</label>
+                <label>Efectivo</label>
             </value>
             <value>
-                <fullName>M</fullName>
+                <fullName>PayPal,</fullName>
                 <default>false</default>
-                <label>M</label>
+                <label>PayPal,</label>
             </value>
             <value>
-                <fullName>S</fullName>
+                <fullName>Transferencia,</fullName>
                 <default>false</default>
-                <label>S</label>
-            </value>
-            <value>
-                <fullName>Unitalla</fullName>
-                <default>false</default>
-                <label>Unitalla</label>
-            </value>
-            <value>
-                <fullName>XL</fullName>
-                <default>false</default>
-                <label>XL</label>
+                <label>Transferencia,</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -11,34 +11,34 @@
         <valueSetDefinition>
             <sorted>true</sorted>
             <value>
-                <fullName>Azul,</fullName>
+                <fullName>Azul</fullName>
                 <default>false</default>
-                <label>Azul,</label>
+                <label>Azul</label>
             </value>
             <value>
-                <fullName>Blanco,</fullName>
+                <fullName>Blanco</fullName>
                 <default>false</default>
-                <label>Blanco,</label>
+                <label>Blanco</label>
             </value>
             <value>
-                <fullName>Gris,</fullName>
+                <fullName>Gris</fullName>
                 <default>false</default>
-                <label>Gris,</label>
+                <label>Gris</label>
             </value>
             <value>
-                <fullName>Negro,</fullName>
+                <fullName>Negro</fullName>
                 <default>false</default>
-                <label>Negro,</label>
+                <label>Negro</label>
             </value>
             <value>
-                <fullName>Rojo,</fullName>
+                <fullName>Rojo</fullName>
                 <default>false</default>
-                <label>Rojo,</label>
+                <label>Rojo</label>
             </value>
             <value>
-                <fullName>Verde,</fullName>
+                <fullName>Verde</fullName>
                 <default>false</default>
-                <label>Verde,</label>
+                <label>Verde</label>
             </value>
         </valueSetDefinition>
     </valueSet>
